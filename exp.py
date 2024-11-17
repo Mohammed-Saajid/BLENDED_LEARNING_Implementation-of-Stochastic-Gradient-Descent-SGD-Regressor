@@ -1,48 +1,3 @@
-# BLENDED_LEARNING
-# Implementation-of-Stochastic-Gradient-Descent-SGD-Regressor
-
-## AIM:
-To write a program to implement Stochastic Gradient Descent (SGD) Regressor for linear regression and evaluate its performance.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. **Import Libraries**:  
-   Import the required libraries.
-
-2. **Load Dataset**:  
-   Load the dataset into your environment.
-
-3. **Data Preprocessing**:  
-   Handle missing values and encode categorical variables.
-
-4. **Define Features and Target**:  
-   Separate the data into features (X) and the target variable (y).
-
-5. **Split Data**:  
-   Divide the data into training and testing sets.
-
-6. **Initialize SGD Regressor**:  
-   Create an SGD Regressor model.
-
-7. **Train the Model**:  
-   Fit the model on the training dataset.
-
-8. **Evaluate Performance**:  
-   Assess the model's performance using evaluation metrics.
-
-9. **Make Predictions & Visualize**:  
-   Make predictions and visualize the results.
-
-## Program:
-```py
-/*
-Program to implement SGD Regressor for linear regression.
-Developed by: Mohammed Saajid S
-RegisterNumber: 212223240093
-*/
 
 # Importing necessary libraries
 import pandas as pd
@@ -97,14 +52,3 @@ plt.ylabel("Predicted Prices")
 plt.title("Actual vs Predicted Prices using SGD Regressor")
 plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red')  # Perfect prediction line
 plt.show()
-```
-
-## Output:
-![alt text](image.png)
-![alt text](image-1.png)
-
-
-
-
-## Result:
-Thus, the implementation of Stochastic Gradient Descent (SGD) Regressor for linear regression has been successfully demonstrated and verified using Python programming.
